@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Training | Home</title>
+  
+  <link rel="shortcut icon" href="./img/bootstrap-logo.svg" type="image/x-icon">
+  
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  
+  <link rel="stylesheet" href="./css/style.css">
+  
+</head>
+<body>
+  
+  <!-- #region Header -->
+  <header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- container-fluid = 100% | container = 80% -->
+      <div class="container">
+        
+        <a class="navbar-brand" href="./index.html">
+          <img src="./img/bootstrap-logo.svg" alt="..." width="32">
+          Bootstrap Training
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item">
+              <a class="h5 text-decoration-none mx-2 c-text-primary c-active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="h5 text-decoration-none mx-2 c-text-primary" href="./about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="h5 text-decoration-none mx-2 c-text-primary" href="./services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="h5 text-decoration-none mx-2 c-text-primary" href="./contact.html">Contact Us</a>
+            </li>
+          </ul>
+          
+        </div>
+        
+      </div>
+    </nav>
+    
+  </header>
+  <!-- #endregion Header -->
+  
+  <!-- #region Main -->
+  
+  <main>
+    <!-- #region Slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="//unsplash.it/1920/600" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="display-3 text-capitalize">First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="//unsplash.it/1920/600" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block card-img-overlay">
+            <h5 class="display-3 text-capitalize">Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="//unsplash.it/1920/600" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="display-3 text-capitalize">Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      
+    </div>
+    <!-- #endregion Slider -->
+    
+    <!-- #region Hero -->
+    
+    <section class="container py-5">
+      <div class="row row-cols-1 row-cols-md-2 align-items-center flex-column-reverse flex-md-row">
+        
+        <div class="col pt-4 px-4">
+          <h1>Bootstrap IT Specialist</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minus nihil dicta blanditiis illum a nulla laborum excepturi, ex minima recusandae, quod unde cumque. Blanditiis tempore nobis quisquam?</p>
+        </div>
+        
+        <div class="col">
+          <img src="//unsplash.it/500/300" alt="" class="img-fluid">
+        </div>
+        
+      </div>
+    </section>
+    
+    <!-- #endregion Hero -->
+    
+    <!-- #region Services -->
+    <section class="container-fluid c-bg-secondary">
+      <div class="container py-5">
+        
+        <div class="row text-center justify-content-center pb-4">
+          <h2 class="text-white">Services</h2>
+          <p class="c-text-white col-9 col-lg-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestiae nisi quisquam aperiam laborum, dignissimos necessitatibus nam est suscipit maxime ex tempora minima vel molestias explicabo iusto amet!</p>
+        </div>
+        
+        <div class="row row-cols-3 row-cols-md-3 g-4">
+          
+          <article class="col">
+            <div class="card h-100 align-items-center pt-5 px-3 pb-4 border-0 rounded-0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg>
+              <div class="card-body text-center">
+                <h5 class="card-title h4">Card title</h5>
+                <p class="card-text text-secondary">This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.</p>
+              </div>
+              <a href="#" class="c-text-black">Learn More</a>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card h-100 align-items-center pt-5 px-3 pb-4 border-0 rounded-0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg>
+              <div class="card-body text-center">
+                <h5 class="card-title h4">Card title</h5>
+                <p class="card-text text-secondary">This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.</p>
+              </div>
+              <a href="#" class="c-text-black">Learn More</a>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card h-100 align-items-center pt-5 px-3 pb-4 border-0 rounded-0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg>
+              <div class="card-body text-center">
+                <h5 class="card-title h4">Card title</h5>
+                <p class="card-text text-secondary">This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.</p>
+              </div>
+              <a href="#" class="c-text-black">Learn More</a>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card h-100 align-items-center pt-5 px-3 pb-4 border-0 rounded-0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg>
+              <div class="card-body text-center">
+                <h5 class="card-title h4">Card title</h5>
+                <p class="card-text text-secondary">This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.</p>
+              </div>
+              <a href="#" class="c-text-black">Learn More</a>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card h-100 align-items-center pt-5 px-3 pb-4 border-0 rounded-0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg>
+              <div class="card-body text-center">
+                <h5 class="card-title h4">Card title</h5>
+                <p class="card-text text-secondary">This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.</p>
+              </div>
+              <a href="#" class="c-text-black">Learn More</a>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card h-100 align-items-center pt-5 px-3 pb-4 border-0 rounded-0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg>
+              <div class="card-body text-center">
+                <h5 class="card-title h4">Card title</h5>
+                <p class="card-text text-secondary">This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.</p>
+              </div>
+              <a href="#" class="c-text-black">Learn More</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+    <!-- #endregion Services -->
+    
+    <!-- #region News -->
+    <section class="container-fluid bg-white">
+      <div class="container py-5">
+        
+        <div class="row text-center justify-content-center pb-4">
+          <h2>Latest News</h2>
+          <p>Get the latest news and announcements</p>
+        </div>
+        
+        <div class="row row-cols-3 row-cols-md-3 g-4">
+          
+          <article class="col">
+            <div class="card h-100 align-items-center pt-5 px-3 pb-4 border-0 rounded-0">
+              <img src="//unsplash.it/330/200" class="img-fluid" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title h4">Card title</h5>
+                <p class="card-text text-secondary">This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.</p>
+              </div>
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card h-100 align-items-center pt-5 px-3 pb-4 border-0 rounded-0">
+              <img src="//unsplash.it/330/200" class="img-fluid" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title h4">Card title</h5>
+                <p class="card-text text-secondary">This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.</p>
+              </div>
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card h-100 align-items-center pt-5 px-3 pb-4 border-0 rounded-0">
+              <img src="//unsplash.it/330/200" class="img-fluid" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title h4">Card title</h5>
+                <p class="card-text text-secondary">This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.</p>
+              </div>
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+    <!-- #endregion News -->
+    
+    <!-- #region Testimonials -->
+    <section class="container-fluid c-bg-accent">
+      <div class="container py-5">
+        
+        <div class="row text-center justify-content-center pb-4">
+          <h2 class="text-white">Testimonials</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias hic cum tempore illum officiis, tempora assumenda dolore maiores, perferendis mollitia aut voluptatum consequatur ipsa pariatur ea laborum magnam iusto vitae nesciunt suscipit esse numquam quis eum. Molestias, libero laboriosam odio facilis numquam eaque. Asperiores repellat iste deserunt veniam reprehenderit perspiciatis?</p>
+        </div>
+        
+        <div class="row row-cols-3 row-cols-md-3 g-4">
+          
+          <article class="col">
+            <div class="card h-100 align-items-center pt-5 px-3 pb-4 border-0 rounded-0">
+              <img src="//unsplash.it/200/200" class="img-fluid rounded-circle" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title h4">Card title</h5>
+                <h6 class="c-text-secondary">MUSICIAN</h6>
+                <p class="card-text text-secondary">This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.</p>
+              </div>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card h-100 align-items-center pt-5 px-3 pb-4 border-0 rounded-0">
+              <img src="//unsplash.it/200/200" class="img-fluid rounded-circle" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title h4">Card title</h5>
+                <h6 class="c-text-secondary">MUSICIAN</h6>
+                <p class="card-text text-secondary">This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.</p>
+              </div>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card h-100 align-items-center pt-5 px-3 pb-4 border-0 rounded-0">
+              <img src="//unsplash.it/200/200" class="img-fluid rounded-circle" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title h4">Card title</h5>
+                <h6 class="c-text-secondary">MUSICIAN</h6>
+                <p class="card-text text-secondary">This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.This is a short card.</p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+    <!-- #endregion Testimonials -->
+    
+    <!-- #region Clients -->
+
+    <div class="container py-5">
+      <div class="row justify-content-center">
+
+        <a href="#" class="w-auto py-2">
+          <img src="//unsplash.it/120/30" alt="..." class="img-fluid">
+        </a>
+        <a href="#" class="w-auto py-2">
+          <img src="//unsplash.it/120/30" alt="..." class="img-fluid">
+        </a>
+        <a href="#" class="w-auto py-2">
+          <img src="//unsplash.it/120/30" alt="..." class="img-fluid">
+        </a>
+        <a href="#" class="w-auto py-2">
+          <img src="//unsplash.it/120/30" alt="..." class="img-fluid">
+        </a>
+        <a href="#" class="w-auto py-2">
+          <img src="//unsplash.it/120/30" alt="..." class="img-fluid">
+        </a>
+
+      </div>
+    </div>
+
+    <!-- #endregion Clients -->
+    
+    <!-- #region Map -->
+    <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.576868831048!2d121.01130697533245!3d14.566172977918164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9a04480d30b%3A0xeb58a3874cff7c5d!2sInventive%20Media!5e0!3m2!1sen!2sph!4v1688289422918!5m2!1sen!2sph" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- #endregion Map -->
+    
+    <!-- #region Address -->
+    <style>
+      address, figure {margin: 0;}
+
+      #contact-info {
+        display: grid;
+        justify-content: center;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, 267px);
+      }
+
+      #contact-info > figure {
+        display: grid;
+        grid:
+        ".    ."
+        /auto 1fr;
+        align-items: center;
+        gap: 1rem;
+      }
+
+    </style>
+
+    <address class="container-xxl py-4" id="contact-info">
+      <figure>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+          <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+        </svg>
+        <figcaption>
+          Karmela Building 2590, 3rd Floor <br>
+          Manchas St. corner Venecia St. <br>
+          Makati City 1205
+        </figcaption>
+      </figure>
+
+      <figure>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+        </svg>
+        <figcaption>
+          Globe Mobile: <a href="tel:+639369700874">09369700874</a> <br>
+          Sun Mobile: <a href="tel:+639331348856">09331348856</a>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+          <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+        </svg>
+        <figcaption>
+          <a href="mailto:info@inventivemedia.com.ph">info@inventivemedia.com.ph</a> <br>
+          <a href="mailto:inventivemedia.ph@gmail.com">inventivemedia.ph@gmail.com</a>
+        </figcaption>
+      </figure>
+
+    </address>
+    <!-- #endregion Address -->
+    
+    <!-- #region Contact -->
+
+    <section class="container-fluid bg-primary">
+      <div class="container py-5">
+        <div class="row align-items-center">
+
+          <div class="col-12 col-lg-7 py-3 px-lg-5">
+            <img src="//unsplash.it/800/400" alt="..." class="img-fluid">
+          </div>
+          
+          <div class="col-12 col-lg-5">
+            <div class="container">
+              <form action="" class="row justify-content-center bg-light p-4">
+
+                <h2 class="text-center">Contact Us</h2>
+
+                <div class="mb-3"><input class="form-control" placeholder="Name" type="text"></div>
+                <div class="mb-3"><input class="form-control" placeholder="Mobile" type="tel" name="" id=""></div>
+                <div class="mb-3"><input class="form-control" placeholder="Email" type="email" name="" id=""></div>
+                <div class="mb-3"><textarea class="form-control" placeholder="Message" name="" id="" cols="30" rows="10"></textarea></div>
+                <div class="mb-3"><button class="btn btn-primary">Send</button></div>
+
+              </form>
+            </div>
+          </div> 
+
+        </div>
+      </div>
+    </section>
+
+    <!-- #endregion Contact -->
+  </main>
+  <!-- #endregion Main -->
+  
+  <!-- #region Footer -->
+  <footer>
+    <footer class="container-fluid c-bg-black px-0">
+      <div class="container py-5">
+        <div class="row g-4 text-white">
+
+          <div class="col-12 col-md-6 order-md-last">
+            <h3>Bootstrap</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non quis iusto perspiciatis. Eaque eius placeat quisquam veritatis rerum? Accusamus iste quasi consectetur illum sint, architecto totam fugiat quia cupiditate eius.</p>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#" class="text-decoration-none c-text-white">Link Text</a></li>
+              <li><a href="#" class="text-decoration-none c-text-white">Link Text</a></li>
+              <li><a href="#" class="text-decoration-none c-text-white">Link Text</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <h3>About</h3> 
+            <ul>
+              <li><a href="#" class="text-decoration-none c-text-white">Link Text</a></li>
+              <li><a href="#" class="text-decoration-none c-text-white">Link Text</a></li>
+              <li><a href="#" class="text-decoration-none c-text-white">Link Text</a></li>
+            </ul>           
+          </div>
+
+        </div>
+      </div>
+
+      <p class="bg-black text-white text-center fst-italic small py-3 mb-0">Bootstrap &copy; 2023</p>
+    </footer>
+
+
+  </footer>
+  <!-- #endregion Footer -->
+  
+  <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
